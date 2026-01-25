@@ -6,11 +6,11 @@
 /*   By: mhaizan <mhaizan@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 21:32:00 by mhezan            #+#    #+#             */
-/*   Updated: 2026/01/22 22:15:30 by mhaizan          ###   ########.fr       */
+/*   Updated: 2026/01/25 16:28:22 by mhaizan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../srcs/push_swap.h"
+#include "../push_swap.h"
 
 static int	count_smaller(t_stack *a, int idx)
 {

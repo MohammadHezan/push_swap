@@ -72,9 +72,7 @@ The program outputs `Error` to stderr for:
    - Push all elements back from B to A (`pa`)
 3. After processing all bits, stack A is sorted
 
-## Resources
-
-### Documentation
+### Resources
 - [Push_swap Tutorial](https://medium.com/@jamierobertdawson/push-swap-the-least-amount-of-moves-with-two-stacks-d1e76a71789a)
 - [Radix Sort Explained](https://www.geeksforgeeks.org/radix-sort/)
 - [42 Push_swap Subject](https://github.com/42-subjects)

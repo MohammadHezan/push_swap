@@ -6,11 +6,11 @@
 /*   By: mhaizan <mhaizan@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 21:32:00 by mhezan            #+#    #+#             */
-/*   Updated: 2026/01/22 22:09:05 by mhaizan          ###   ########.fr       */
+/*   Updated: 2026/01/25 15:55:27 by mhaizan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 static int	is_valid_number(char *str)
 {
@@ -95,6 +95,7 @@ static int	fill_stack(char **args, int count, t_stack *a)
 int	parse_args(int argc, char **argv, t_stack *a, char ***split)
 {
 	int	count;
+	int	ret;
 
 	*split = NULL;
 	if (argc == 2)
@@ -102,7 +103,9 @@ int	parse_args(int argc, char **argv, t_stack *a, char ***split)
 		*split = ft_split(argv[1], &count);
 		if (!*split || count == 0)
 			return (0);
-		return (fill_stack(*split, count, a));
+		ret = fill_stack(*split, count, a);
+		return (ret);
 	}
-	return (fill_stack(argv + 1, argc - 1, a));
+	ret = fill_stack(argv + 1, argc - 1, a);
+	return (ret);
 }

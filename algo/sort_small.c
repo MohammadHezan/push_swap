@@ -6,11 +6,11 @@
 /*   By: mhaizan <mhaizan@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 21:32:00 by mhezan            #+#    #+#             */
-/*   Updated: 2026/01/22 22:17:25 by mhaizan          ###   ########.fr       */
+/*   Updated: 2026/01/23 20:45:58 by mhaizan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../srcs/push_swap.h"
+#include "../push_swap.h"
 
 static int	attempt_simple_sort(t_stack *a)
 {

@@ -6,11 +6,11 @@
 /*   By: mhaizan <mhaizan@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 21:32:00 by mhezan            #+#    #+#             */
-/*   Updated: 2026/01/22 22:15:10 by mhaizan          ###   ########.fr       */
+/*   Updated: 2026/01/23 20:45:47 by mhaizan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../srcs/push_swap.h"
+#include "../push_swap.h"
 
 void	pa(t_stack *a, t_stack *b)
 {

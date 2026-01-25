@@ -6,11 +6,11 @@
 /*   By: mhaizan <mhaizan@student.42amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 22:08:00 by mhaizan           #+#    #+#             */
-/*   Updated: 2026/01/22 22:08:38 by mhaizan          ###   ########.fr       */
+/*   Updated: 2026/01/23 20:46:42 by mhaizan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 static int	count_words(char *str)
 {
