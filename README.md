@@ -11,8 +11,8 @@
   ![Score](https://img.shields.io/badge/Score-84%2F100-brightgreen)
   
   <p><strong>A 42 School Algorithm Project by mhaizan</strong></p>
-  
-  <img src="assets/score.png" alt="Project Score: 84/100" width="150"/>
+  <img width="201" height="170" alt="Screenshot from 2026-02-06 12-50-05" src="https://github.com/user-attachments/assets/2a9c6e0c-a707-4d51-8806-073e49727ae8" />
+
 </div>
 
 ---
