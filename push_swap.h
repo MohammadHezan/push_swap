@@ -6,7 +6,7 @@
 /*   By: mohammad-hezan <mohammad-hezan@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 21:32:00 by mhezan            #+#    #+#             */
-/*   Updated: 2026/02/06 12:34:26 by mohammad-he      ###   ########.fr       */
+/*   Updated: 2026/02/06 12:59:54 by mohammad-he      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 **
 ** The program outputs the sequence of operations needed to sort the stack,
 ** optimizing for the minimum number of moves.
-** =============================================================================
+** ============================================================================
 */
 
 #ifndef PUSH_SWAP_H
